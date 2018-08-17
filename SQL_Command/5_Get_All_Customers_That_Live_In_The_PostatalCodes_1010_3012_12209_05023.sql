@@ -1,0 +1,2 @@
+/* Get all customers that live in the postal codes 1010, 3012, 12209, and 05023. */
+select * from Customers where PostalCode = '1010' OR PostalCode = '3012' OR PostalCode = '12209' OR PostalCode = '05023';
